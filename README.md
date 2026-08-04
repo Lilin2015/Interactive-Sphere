@@ -12,6 +12,21 @@ identifies them against the sphere model, and measures the sphere pose in real t
 Compared with cube- and icosahedron-based markers, the sphere achieves stronger
 viewpoint robustness and better occlusion tolerance.
 
+## Screenshots
+
+**Pose measurement** — the projected mesh of the sphere model, with a magenta dot
+at the center of each pentagonal ID tag:
+
+![Pose measurement](images/pose_measurement.png)
+
+**Detection** — the binarized image with recognized dots (green: solid, red: hollow):
+
+![Detection](images/detection.png)
+
+**Identification** — each dot labeled with its decoded ID tag, shown in different colors:
+
+![Identification](images/identification.png)
+
 ## User Guide
 
 The root directory contains one main script: `main.py`. Run this script if you would
