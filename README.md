@@ -12,21 +12,6 @@ identifies them against the sphere model, and measures the sphere pose in real t
 Compared with cube- and icosahedron-based markers, the sphere achieves stronger
 viewpoint robustness and better occlusion tolerance.
 
-## Screenshots
-
-**Pose measurement** — the projected mesh of the sphere model, with a magenta dot
-at the center of each pentagonal ID tag:
-
-![Pose measurement](images/pose_measurement.png)
-
-**Detection** — the binarized image with recognized dots (green: solid, red: hollow):
-
-![Detection](images/detection.png)
-
-**Identification** — each dot labeled with its decoded ID tag, shown in different colors:
-
-![Identification](images/identification.png)
-
 ## User Guide
 
 The root directory contains one main script: `main.py`. Run this script if you would
@@ -84,12 +69,19 @@ be observed directly. By default, the view shows the pose measurement result: th
 projected mesh of the sphere model, with a magenta dot drawn at the center of each
 pentagonal ID tag to indicate the measured pose.
 
+![Pose measurement](images/pose_measurement.png)
+
 In the **Debug** area:
 
 - switch to **detection** to inspect the binarized image together with the recognized
-  dots (green marks solid dots, red marks hollow ones);
+  dots (green marks solid dots, red marks hollow ones):
+
+  ![Detection](images/detection.png)
+
 - switch to **identification** to see each dot labeled with its decoded ID tag
-  (shown in different colors) together with the mesh.
+  (shown in different colors) together with the mesh:
+
+  ![Identification](images/identification.png)
 
 If the dots are not segmented correctly, first click **Auto Set**, which automatically
 determines the sphere diameter parameter (`sphereDiaRatio`); the `dotDiaRatio`,
