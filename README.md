@@ -40,9 +40,17 @@ In the `Material` folder, there are three files:
 
 Please watch the videos in the `video` folder:
 
-- `sphere_handheld.mp4` — handheld tracking of the proposed sphere;
-- `Icosahedron_handheld.mp4` — the icosahedron baseline for comparison;
-- `AR_video.mp4` — an AR application driven by the measured sphere pose.
+- `sphere_handheld.mp4` — handheld tracking of the proposed sphere:
+
+  ![Handheld sphere tracking](images/sphere_handheld.gif)
+
+- `Icosahedron_handheld.mp4` — the icosahedron baseline for comparison:
+
+  ![Handheld icosahedron tracking](images/Icosahedron_handheld.gif)
+
+- `AR_video.mp4` — an AR application driven by the measured sphere pose:
+
+  ![AR application](images/AR_video.gif)
 
 ### 4. Run the script
 
